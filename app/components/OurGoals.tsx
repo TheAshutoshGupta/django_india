@@ -46,6 +46,7 @@ type FeatureBlockProps = {
 export default function OurGoals() {
   return (
     <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div className="absolute inset-0 h-full w-full bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
       <div className="mx-auto max-w-xl text-center">
         <div className="mx-auto inline-flex rounded-full bg-gray-100 px-4 py-1.5">
           <p className="text-xs font-semibold uppercase tracking-widest text-black">
