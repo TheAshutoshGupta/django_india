@@ -18,20 +18,12 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
-    },
-    {
-      id: 4,
-      link: "experience",
-    },
-    {
-      id: 5,
-      link: "contact",
+      link: "Contact",
     },
   ];
 
   return (
-    <div className="flex z-10 justify-between items-center w-full h-16 px-4 text-black bg-white fixed">
+    <div className="fixed flex z-10 justify-between bg-white items-center w-full h-12 md:h-16 px-4 text-black">
       <div>
         {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
         <h1 className="text-5xl font-signature ml-2">
@@ -41,7 +33,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            {/* something */}
+            
           </a>
         </h1>
       </div>
